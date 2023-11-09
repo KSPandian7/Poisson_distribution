@@ -3,6 +3,7 @@
 
 To fit poisson distribution for the arrival of objects per minute from the feeder
 
+# Software required :  
 
 Python and Visual component tool
 
@@ -28,10 +29,6 @@ The Poisson distribution is the discrete probability distribution of the number 
 ![image](https://user-images.githubusercontent.com/103921593/230282876-f4a5afbf-cac1-4648-a1b0-c78840638a8e.png)
 
 # Program :
-```python
-DEVELOPED BY : KULASEKARAPANDIAN K
-REGISTER NO : 212222240052
-```
 ```python
 import numpy as np
 import math
@@ -69,17 +66,9 @@ if cal_chi2_sq<table_chi2:
 else:
     print("The given data cannot be fitted in Poisson Distribution at 1% LOS")
 ```
- 
+## Output :
 
-# Output : 
-
-### Input Values - 
-```python
-5 0 1 4 2 3 7 5 3 5 5 7 7 2 3 3 5 3 6 1
-```
-![OUTPUT](/op2.png)
-
-
+![output](https://github.com/21003698/Poisson_distribution/assets/93427522/66c445f7-50f1-4749-a102-9da761ccabcd)
 
 # Results
 
